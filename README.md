@@ -149,7 +149,7 @@ If you find this work helpful, please cite our paper:
 
 ```
 @article{guan2025deepragthinkingretrievalstep,
-    title={DeepRAG: Thinking to Retrieval Step by Step for Large Language Models}, 
+    title={DeepRAG: Thinking to Retrieve Step by Step for Large Language Models}, 
     author={Xinyan Guan and Jiali Zeng and Fandong Meng and Chunlei Xin and Yaojie Lu and Hongyu Lin and Xianpei Han and Le Sun and Jie Zhou},
     year={2025},
     journal={arXiv preprint arXiv:2502.01142},
