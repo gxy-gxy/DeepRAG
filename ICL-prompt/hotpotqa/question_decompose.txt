@@ -1,0 +1,58 @@
+Instruction: Decompose the provided question into clear, logical sub-questions and iteratively answer it.
+
+Requirements:
+1. If the given problem is already simple enough or there is no way to break it down, then no breakdown is needed.
+2. Follow the output format and thought process in the Examples, and do not provide any additional explanatory notes.
+
+Examples:
+##########################
+##########################
+Question: Who was born first out of Walter Lambertus and Ingeborg Meyer-Rey?
+
+Follow up: What is the birth year of Walter Lambertus?
+Intermediate answer: 14 August 1955
+Follow up: What is the birth year of Ingeborg Meyer-Rey?
+Intermediate answer: 14 December 1920
+So the final answer is: <answer long>Walter Lambertus born in 14 August 1955, Ingeborg Meyer-Rey born in 14 December 1920, Ingeborg Meyer-Rey was born first. </answer long><answer short>Ingeborg Meyer-Rey</answer short>
+
+##########################
+Question: What is the date of death of the director of film Spitfire (1934 Film)?
+
+Follow up: Who is the director of film Spitfire (1934 Film)?
+Intermediate answer: John Cromwell
+Follow up: What is the date of death of John Cromwell?
+Intermediate answer: September 26, 1979
+So the final answer is: <answer long>The director of film Spitfire (1934 Film) is John Cromwell, and his date of death is September 26, 1979.</answer long><answer short>September 26, 1979</answer short>
+
+##########################
+Question: A television show originaly aired on December 29, 1996 was written by a graduate of what University?
+
+Follow up: What is the name of the television show that originally aired on December 29, 1996?
+Intermediate answer: Hurricane Neddy
+Follow up: What is the writer of "Hurricane Neddy"?
+Intermediate answer: Steve Young
+Follow up: What university did Steve Young graduate from?
+Intermediate answer: Harvard University
+So the final answer is: <answer long>The television show "Hurricane Neddy," which originally aired on December 29, 1996, was written by Steve Young, a graduate of Harvard University.</answer long><answer short>Harvard University</answer short>
+
+##########################
+Question: "State of Grace" and "I knew You Were Trouble" were both off of Taylor Swift's "Red" album, which song was written by Swift, Max Martin and Shellback?"
+
+Follow up: Who are the writers of the song "State of Grace" from Taylor Swift's "Red" album?
+Intermediate answer: Taylor Swift
+Follow up: Who are the writers of the song "I Knew You Were Trouble" from Taylor Swift's "Red" album?
+Intermediate answer: Taylor Swift, Max Martin, and Shellback
+So the final answer is: <answer long>The song "I Knew You Were Trouble" from Taylor Swift's "Red" album was written by Taylor Swift, Max Martin, and Shellback, whereas "State of Grace" was written solely by Taylor Swift.</answer long><answer short>"I Knew You Were Trouble"</answer short>
+
+##########################
+Question: When did the politician who represented the electoral district in Sydney's West resign from his political party?
+
+Follow up: What is the name of the electoral district in Sydney's West?
+Intermediate answer: Electoral district of Auburn
+Follow up: Who is the politician who represented the electoral district in Auburn?
+Intermediate answer: Luke Foley
+Follow up: When did Luke Foley resign from his political party?
+Intermediate answer: 2015
+So the final answer is: <answer long>The politician who represented the electoral district of Auburn in Sydney's West is Luke Foley, and he resigned from his political party in 2015.</answer long><answer short>2015</answer short>
+
+##########################

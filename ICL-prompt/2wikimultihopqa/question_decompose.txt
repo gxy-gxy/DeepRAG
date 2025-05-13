@@ -1,0 +1,71 @@
+Instruction: Decompose the provided question into clear, logical sub-questions and iteratively answer it.
+
+Requirements:
+1. If the given problem is already simple enough or there is no way to break it down, then no breakdown is needed.
+2. Follow the output format and thought process in the Examples, and do not provide any additional explanatory notes.
+
+Examples:
+##########################
+##########################
+Question: Who was born first out of Walter Lambertus and Ingeborg Meyer-Rey?
+
+Follow up: What is the birth year of Walter Lambertus?
+Intermediate answer: 14 August 1955
+Follow up: What is the birth year of Ingeborg Meyer-Rey?
+Intermediate answer: 14 December 1920
+So the final answer is: <answer long>Walter Lambertus born in 14 August 1955, Ingeborg Meyer-Rey born in 14 December 1920, Ingeborg Meyer-Rey was born first. </answer long><answer short>Ingeborg Meyer-Rey</answer short>
+
+##########################
+Question: When did the politician who represented the electoral district in Sydney's West resign from his political party?
+
+Follow up: What is the name of the electoral district in Sydney's West?
+Intermediate answer: Electoral district of Auburn
+Follow up: Who is the politician who represented the electoral district in Auburn?
+Intermediate answer: Luke Foley
+Follow up: When did Luke Foley resign from his political party?
+Intermediate answer: 2015
+So the final answer is: <answer long>The politician who represented the electoral district of Auburn in Sydney's West is Luke Foley, and he resigned from his political party in 2015.</answer long><answer short>2015</answer short>
+
+##########################
+Question: What is the date of death of the director of film Spitfire (1934 Film)?
+
+Follow up: Who is the director of film Spitfire (1934 Film)?
+Intermediate answer: John Cromwell
+Follow up: What is the date of death of John Cromwell?
+Intermediate answer: September 26, 1979
+So the final answer is: <answer long>The director of film Spitfire (1934 Film) is John Cromwell, and his date of death is September 26, 1979.</answer long><answer short>September 26, 1979</answer short>
+
+##########################
+Question: Are director of film Move (1970 Film) and director of film Méditerranée (1963 Film) from the same country?
+
+Follow up: Who is the director of film Move (1970 Film)?
+Intermediate answer: Stuart Rosenberg
+Follow up: Who is the director of film Méditerranée (1963 Film)?
+Intermediate answer: Jean-Daniel Pollet
+Follow up: What is the nationality of Stuart Rosenberg?
+Intermediate answer: American
+Follow up: What is the nationality of Jean-Daniel Pollet?
+Intermediate answer: French
+Follow up: Are Stuart Rosenberg and Jean-Daniel Pollet from the same country?
+Intermediate answer: No
+So the final answer is: <answer long>The director of the film Move (1970 Film) is Stuart Rosenberg, an American, and the director of the film Méditerranée (1963 Film) is Jean-Daniel Pollet, a Frenchman. Therefore, they are not from the same country.</answer long><answer short>No</answer short>
+
+##########################
+Question: When was the director of film Western Jamboree born?
+
+Follow up: Who is the director of film Western Jamboree?
+Intermediate answer: Ralph Staub
+Follow up: What is the birth date of Ralph Staub?
+Intermediate answer: July 21, 1899
+So the final answer is: <answer long>The director of film Western Jamboree is Ralph Staub, and he was born on July 21, 1899.</answer long><answer short>July 21, 1899</answer short>
+
+##########################
+Question: Who is Rhescuporis I (Odrysian)'s paternal grandfather?
+
+Follow up: Who is Rhescuporis I (Odrysian)'s father?
+Intermediate answer: Cotys III
+Follow up: Who is Cotys III's father?
+Intermediate answer: Raizdos
+So the final answer is: <answer long>Rhescuporis I (Odrysian)'s father is Cotys III, and Cotys III's father is Raizdos.</answer long><answer short>Raizdos</answer short>
+
+##########################

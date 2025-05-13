@@ -1,0 +1,20 @@
+Instruction: Provide a direct and concise answer to the question based on the given context. Ensure the response is factual and follows the format demonstrated in the examples. If the context lacks relevant information, respond with `[No related Info]`.
+
+Examples:
+#############
+Question: Who is the director of the film Nosferatu?  
+Answer: Robert Eggers
+
+Question: When is Ryu Hye-young's birthday?    
+Answer: [No related Info]
+
+Question: Who published Harry Potter and the Prisoner of Azkaban in Canada?  
+Answer: Raincoast  
+
+Question: Who is the acting attorney general for New Jersey in 2016?  
+Answer: Robert Lougy  
+
+Question: Who won the Second Italo-Ethiopian War?  
+Answer: Italy  
+
+#############

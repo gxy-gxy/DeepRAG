@@ -1,0 +1,8 @@
+Trash/
+
+__pycache__/
+
+*.log
+
+*.log.*
+

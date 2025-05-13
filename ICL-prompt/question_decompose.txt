@@ -1,0 +1,43 @@
+Instruction: Decompose the provided question into clear, logical sub-questions and iteratively answer it.
+
+Requirements:
+1. If the given problem is already simple enough or there is no way to break it down, then no breakdown is needed.
+2. Follow the output format and thought process in the Examples, and do not provide any additional explanatory notes.
+
+Examples:
+##########################
+##########################
+Question: Who was born first out of Walter Lambertus and Ingeborg Meyer-Rey?
+
+Follow up: What is the birth year of Walter Lambertus?
+Intermediate answer: 14 August 1955
+Follow up: What is the birth year of Ingeborg Meyer-Rey?
+Intermediate answer: 14 December 1920
+So the final answer is: <answer long>Walter Lambertus born in 14 August 1955, Ingeborg Meyer-Rey born in 14 December 1920, Ingeborg Meyer-Rey was born first. </answer long><answer short>Ingeborg Meyer-Rey</answer short>
+
+##########################
+Question: When was the last time the death penalty was used in pa?
+
+Follow up: When was the last time the death penalty was used in Pennsylvania?
+Intermediate answer: July 6, 1999
+So the final answer is: <answer long>The last time the death penalty was used in pa was on July 6, 1999.</answer long><answer short>July 6, 1999</answer short>
+
+##########################
+Question: Who won the war between ethiopia and italy?
+
+Follow up: Who won the First Italo-Ethiopian War?
+Intermediate answer: Ethiopia
+Follow up: Who won the Second Italo-Ethiopian War?
+Intermediate answer: Italy
+So the final answer is: <answer long>The first war between Italy and Ethiopia took place from 1895 to 1896. This war was won by the Ethiopian army after the Battle of Adwa. The second war between the two nations was fought from October 1935 to February 1937 and was won by the Italians in the Battle of Maychew. </answer long><answer short>Ethiopia for the first war, Italy for the second war</answer short>
+
+##########################
+Question: What is the date of death of the director of film Spitfire (1934 Film)?
+
+Follow up: Who is the director of film Spitfire (1934 Film)?
+Intermediate answer: John Cromwell
+Follow up: What is the date of death of John Cromwell?
+Intermediate answer: September 26, 1979
+So the final answer is: <answer long>The director of film Spitfire (1934 Film) is John Cromwell, and his date of death is September 26, 1979.</answer long><answer short>September 26, 1979</answer short>
+
+##########################

@@ -1,0 +1,51 @@
+You are an expert in question answering. I am going to give you one or more example sets of context, question,
+potential follow up questions and their respective answers, in which the context may or may not be relevant to the
+questions. The examples will be written.
+Context:
+<Retrieved documents>
+Question: What nationality is the director of film Boggy Creek Ii: And The Legend Continues?
+Follow up: Who is the director of the film Boggy Creek II: And The Legend Continues?
+Intermediate answer: The director of the film Boggy Creek II: And The Legend Continues is Charles B. Pierce.
+Follow up: What is the nationality of Charles B. Pierce?
+Intermediate answer: The nationality of Charles B. Pierce is American.
+So the final answer is: American
+
+Context:
+<Retrieved documents>
+Question: Who was born first out of Walter Lambertus and Ingeborg Meyer-Rey?
+Follow up: What is the birth year of Walter Lambertus?
+Intermediate answer: 14 August 1955
+Follow up: What is the birth year of Ingeborg Meyer-Rey?
+Intermediate answer: 14 December 1920
+So the final answer is: Ingeborg Meyer-Rey
+
+Context:
+<Retrieved documents>
+Question: When was the last time the death penalty was used in pa?
+Follow up: When was the last time the death penalty was used in Pennsylvania?
+Intermediate answer: July 6, 1999
+So the final answer is: July 6, 1999
+
+Context:
+<Retrieved documents>
+Question: Who won the war between ethiopia and italy?
+Follow up: Who won the First Italo-Ethiopian War?
+Intermediate answer: Ethiopia
+Follow up: Who won the Second Italo-Ethiopian War?
+Intermediate answer: Italy
+So the final answer is: Ethiopia
+
+Context:
+<Retrieved documents>
+Question: What is the date of death of the director of film Spitfire (1934 Film)?
+Follow up: Who is the director of film Spitfire (1934 Film)?
+Intermediate answer: John Cromwell
+Follow up: What is the date of death of John Cromwell?
+Intermediate answer: September 26, 1979
+So the final answer is: September 26, 1979
+
+After the examples, I am going to provide another pair of context and question, in which the context may or may
+not be relevant to the question. I want you to answer the question. When needed, generate follow up question(s)
+using the format 'Follow up: X', where X is the follow up question. Then, answer each follow up question using
+'Intermediate answer: X' with X being the answer. Finally, answer to the main question with the format 'So the final
+answer is: X', where X is the final answer.
