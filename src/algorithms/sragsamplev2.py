@@ -165,7 +165,7 @@ class SRAGSampleV2(BasicRAG):
             }]
             
             # 更新 put 操作，使用 PrioritizedItem
-            pq.put(PrioritizedItem(depth + 1, (new_history, depth + 1)))
+            pq.put(PrioritizedItem(depth + 1, (new_history, depth)))
             
             # 尝试检索路径
             retrieval_answer, conversation_history = self._try_retrieval_path(follow_up, reasoning_history)
@@ -302,7 +302,7 @@ class SRAGSampleV2(BasicRAG):
             }]
             
             # 更新 put 操作，使用 PrioritizedItem
-            pq.put(PrioritizedItem(depth + 1, (new_history, depth + 1)))
+            pq.put(PrioritizedItem(depth + 1, (new_history, depth)))
             
             # 尝试检索路径
             retrieval_answer, conversation_history = self._try_retrieval_path(follow_up, reasoning_history, docs=all_golden_doc)

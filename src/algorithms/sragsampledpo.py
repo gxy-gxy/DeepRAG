@@ -114,7 +114,7 @@ class SRAGSampleDPO(SRAGSampleV2):
             }]
             
             # Update put operation using PrioritizedItem
-            pq.put(PrioritizedItem(depth + 1, (new_history, depth + 1)))
+            pq.put(PrioritizedItem(depth + 1, (new_history, depth)))
             
             retrieval_answer, conversation_history = self._try_retrieval_path(follow_up, reasoning_history)
 
