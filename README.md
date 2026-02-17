@@ -2,6 +2,7 @@
 
 https://arxiv.org/abs/2502.01142
 
+DeepRAG 7b: https://huggingface.co/xinyan233333/DeepRAG-7b/tree/main
 
 ## Build Wikipedia index
 
