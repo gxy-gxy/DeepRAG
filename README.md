@@ -4,6 +4,8 @@ https://arxiv.org/abs/2502.01142
 
 DeepRAG qwen-7b: https://huggingface.co/xinyan233333/DeepRAG-7b/tree/main
 
+DeepRAG llama-8b: https://huggingface.co/xinyan233333/DeepRAG-8b/tree/main
+
 ## Build Wikipedia index
 
 Download the Wikipedia dump from the [DPR repository](https://github.com/facebookresearch/DPR/blob/main/dpr/data/download_data.py#L32) using the following command:
